@@ -34,4 +34,7 @@ const typeDefs = gql`
         token: ID!
         user: User
     }
-`
+    `;
+
+//export file
+module.exports = typeDefs;
